@@ -14,6 +14,17 @@ This is free software, released under the [GPL version 2](https://www.gnu.org/li
 Where namespace is optional, and indicates the destination namespace for the new page.
 If you give @NS@ or @PAGE@ as namespace, the namespace of the current page or the current page ID will be used.
 
+## Styling
+
+Inside `conf/userall.css`
+
+    /* addnewsidebar */
+    .addnewsidebar {
+        position: absolute;
+        right: 15px;
+        top: 0px;
+    }
+
 ## Authors
 
 - Originally written by [Benjamin Santalucia](https://github.com/ben8p) (aka iDo), 2006.
