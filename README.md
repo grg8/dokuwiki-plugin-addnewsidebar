@@ -25,6 +25,18 @@ Inside `conf/userall.css`
         top: 0px;
     }
 
+## Example
+
+Useful in combination with the newpagetemplate, here inside page `:musik`:
+
+    {{NEWSIDE>:musik#tpl:tpl_sidebar}}
+
+If there is a main `__template` like following with usage of include template, then a tree structur with listing of next level subpages can be achieved straight forward.
+
+    {{NEWSIDE>:@ID@#tpl:tpl_sidebar}}
+    ====== @PAGE@ ======
+    {{page>:@ID@:sidebar&noheader&nofooter&noeditbutton}}
+
 ## Authors
 
 - Originally written by [Benjamin Santalucia](https://github.com/ben8p) (aka iDo), 2006.
